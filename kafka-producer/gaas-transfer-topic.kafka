@@ -1,0 +1,22 @@
+PRODUCER gaas-transfer-topic-producer
+topic: gaas-transfer-topic
+key: "5845323734@10119"
+{
+  "transferId": "2106250000014237210",
+  "provider": "10119",
+  "player": "5845323734",
+  "wallet": "CNY",
+  "currency": "CNY",
+  "amount": "1000000.00000",
+  "balance": "1000000.00000",
+  "status": "FULFILLED",
+  "casino": "TEST-jasontest",
+  "casinoTransactionId": "5318715265968061",
+  "dealer": "PP",
+  "dealerPlayer": "90807211",
+  "operationUrn": "5318715265968061",
+  "commitAt": 1624598154,
+  "asset": "1000000.00000",
+  "nonExpendable": "0.00000",
+  "transactionIdempotence": 1
+}

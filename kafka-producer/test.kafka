@@ -1,0 +1,17 @@
+PRODUCER keyed-message
+topic: my-topic
+key: mykeyq
+yyy
+###
+
+PRODUCER non-keyed-json-message
+topic: json-events
+{
+    "type": "my_test_event-{{random.number}}"
+}
+###
+
+PRODUCER user-logout
+topic: TopicUserLogout
+{"userId": "{{random.number}}"}
+###

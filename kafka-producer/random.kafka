@@ -1,0 +1,15 @@
+--- Produce random messages with built-in faker.js support
+--- Message body simply needs to follow the mustache template syntax
+--- See available fake data at https://github.com/marak/Faker.js/#api-methods
+
+PRODUCER keyed-message
+topic: faker-topic
+key: dept-{{random.number(5)}}
+{
+    "dept":"{{random.number(5)}}",
+    "id": "{{random.uuid}}",
+    "first_name": "{{name.firstName}}",
+    "last_name": "{{name.lastName}}",
+    "email": "{{internet.email}}",
+    "country": "{{address.country}}"
+}
